@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ED2FD6556DE767BF4EF2135 /* Pods_VibeCheck_VibeCheckUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50768649550C29551C515AEF /* Pods_VibeCheck_VibeCheckUITests.framework */; };
 		351B902D2464801A0021ADB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B902C2464801A0021ADB2 /* AppDelegate.swift */; };
 		351B902F2464801A0021ADB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B902E2464801A0021ADB2 /* SceneDelegate.swift */; };
 		351B90312464801A0021ADB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B90302464801A0021ADB2 /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		351B90392464801E0021ADB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351B90372464801E0021ADB2 /* LaunchScreen.storyboard */; };
 		351B90442464801E0021ADB2 /* VibeCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B90432464801E0021ADB2 /* VibeCheckTests.swift */; };
 		351B904F2464801E0021ADB2 /* VibeCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B904E2464801E0021ADB2 /* VibeCheckUITests.swift */; };
+		4D98CC84C30A5E6AE2396420 /* Pods_VibeCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AAC35FBFD0BC90B63B43CE /* Pods_VibeCheck.framework */; };
+		DEBEA9851C2062D817FBD96C /* Pods_VibeCheckTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47FBBDF02FE429ABB95BAF3 /* Pods_VibeCheckTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		351B904A2464801E0021ADB2 /* VibeCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibeCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		351B904E2464801E0021ADB2 /* VibeCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibeCheckUITests.swift; sourceTree = "<group>"; };
 		351B90502464801E0021ADB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35AAC35FBFD0BC90B63B43CE /* Pods_VibeCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VibeCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5FABD757593C82CCEF026E /* Pods-VibeCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibeCheck.debug.xcconfig"; path = "Target Support Files/Pods-VibeCheck/Pods-VibeCheck.debug.xcconfig"; sourceTree = "<group>"; };
+		50768649550C29551C515AEF /* Pods_VibeCheck_VibeCheckUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VibeCheck_VibeCheckUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		717F70DEE4AD421F7CEE7BF7 /* Pods-VibeCheck-VibeCheckUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibeCheck-VibeCheckUITests.debug.xcconfig"; path = "Target Support Files/Pods-VibeCheck-VibeCheckUITests/Pods-VibeCheck-VibeCheckUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		83E7CC80A234E189910725F1 /* Pods-VibeCheckTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibeCheckTests.release.xcconfig"; path = "Target Support Files/Pods-VibeCheckTests/Pods-VibeCheckTests.release.xcconfig"; sourceTree = "<group>"; };
+		89CB6F8D0EA0A0BB0B955588 /* Pods-VibeCheck-VibeCheckUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibeCheck-VibeCheckUITests.release.xcconfig"; path = "Target Support Files/Pods-VibeCheck-VibeCheckUITests/Pods-VibeCheck-VibeCheckUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B088469B2B72A524AD00303B /* Pods-VibeCheckTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibeCheckTests.debug.xcconfig"; path = "Target Support Files/Pods-VibeCheckTests/Pods-VibeCheckTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D47FBBDF02FE429ABB95BAF3 /* Pods_VibeCheckTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VibeCheckTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6E515688938403B117322A /* Pods-VibeCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibeCheck.release.xcconfig"; path = "Target Support Files/Pods-VibeCheck/Pods-VibeCheck.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D98CC84C30A5E6AE2396420 /* Pods_VibeCheck.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEBEA9851C2062D817FBD96C /* Pods_VibeCheckTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED2FD6556DE767BF4EF2135 /* Pods_VibeCheck_VibeCheckUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				351B90422464801E0021ADB2 /* VibeCheckTests */,
 				351B904D2464801E0021ADB2 /* VibeCheckUITests */,
 				351B902A2464801A0021ADB2 /* Products */,
+				D934CFB98FC5C4421B3D8A75 /* Pods */,
+				FA56BDBF2408C2C685F4BDAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = VibeCheckUITests;
 			sourceTree = "<group>";
 		};
+		D934CFB98FC5C4421B3D8A75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A5FABD757593C82CCEF026E /* Pods-VibeCheck.debug.xcconfig */,
+				DB6E515688938403B117322A /* Pods-VibeCheck.release.xcconfig */,
+				717F70DEE4AD421F7CEE7BF7 /* Pods-VibeCheck-VibeCheckUITests.debug.xcconfig */,
+				89CB6F8D0EA0A0BB0B955588 /* Pods-VibeCheck-VibeCheckUITests.release.xcconfig */,
+				B088469B2B72A524AD00303B /* Pods-VibeCheckTests.debug.xcconfig */,
+				83E7CC80A234E189910725F1 /* Pods-VibeCheckTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA56BDBF2408C2C685F4BDAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35AAC35FBFD0BC90B63B43CE /* Pods_VibeCheck.framework */,
+				50768649550C29551C515AEF /* Pods_VibeCheck_VibeCheckUITests.framework */,
+				D47FBBDF02FE429ABB95BAF3 /* Pods_VibeCheckTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 351B90532464801E0021ADB2 /* Build configuration list for PBXNativeTarget "VibeCheck" */;
 			buildPhases = (
+				FF2E60BD00E9A2F44630BAE7 /* [CP] Check Pods Manifest.lock */,
 				351B90252464801A0021ADB2 /* Sources */,
 				351B90262464801A0021ADB2 /* Frameworks */,
 				351B90272464801A0021ADB2 /* Resources */,
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 351B90562464801E0021ADB2 /* Build configuration list for PBXNativeTarget "VibeCheckTests" */;
 			buildPhases = (
+				0850E991EF679E5F5F535022 /* [CP] Check Pods Manifest.lock */,
 				351B903B2464801E0021ADB2 /* Sources */,
 				351B903C2464801E0021ADB2 /* Frameworks */,
 				351B903D2464801E0021ADB2 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 351B90592464801E0021ADB2 /* Build configuration list for PBXNativeTarget "VibeCheckUITests" */;
 			buildPhases = (
+				4C8D07BB4C3D6A823136B886 /* [CP] Check Pods Manifest.lock */,
 				351B90462464801E0021ADB2 /* Sources */,
 				351B90472464801E0021ADB2 /* Frameworks */,
 				351B90482464801E0021ADB2 /* Resources */,
@@ -253,6 +297,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0850E991EF679E5F5F535022 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VibeCheckTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C8D07BB4C3D6A823136B886 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VibeCheck-VibeCheckUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF2E60BD00E9A2F44630BAE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VibeCheck-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		351B90252464801A0021ADB2 /* Sources */ = {
@@ -432,6 +545,7 @@
 		};
 		351B90542464801E0021ADB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A5FABD757593C82CCEF026E /* Pods-VibeCheck.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +564,7 @@
 		};
 		351B90552464801E0021ADB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB6E515688938403B117322A /* Pods-VibeCheck.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +583,7 @@
 		};
 		351B90572464801E0021ADB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B088469B2B72A524AD00303B /* Pods-VibeCheckTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +606,7 @@
 		};
 		351B90582464801E0021ADB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E7CC80A234E189910725F1 /* Pods-VibeCheckTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +629,7 @@
 		};
 		351B905A2464801E0021ADB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 717F70DEE4AD421F7CEE7BF7 /* Pods-VibeCheck-VibeCheckUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +650,7 @@
 		};
 		351B905B2464801E0021ADB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89CB6F8D0EA0A0BB0B955588 /* Pods-VibeCheck-VibeCheckUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
