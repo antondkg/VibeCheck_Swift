@@ -10,7 +10,7 @@
 		1ED2FD6556DE767BF4EF2135 /* Pods_VibeCheck_VibeCheckUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50768649550C29551C515AEF /* Pods_VibeCheck_VibeCheckUITests.framework */; };
 		351B902D2464801A0021ADB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B902C2464801A0021ADB2 /* AppDelegate.swift */; };
 		351B902F2464801A0021ADB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B902E2464801A0021ADB2 /* SceneDelegate.swift */; };
-		351B90312464801A0021ADB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B90302464801A0021ADB2 /* ViewController.swift */; };
+		351B90312464801A0021ADB2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B90302464801A0021ADB2 /* LoginViewController.swift */; };
 		351B90342464801A0021ADB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351B90322464801A0021ADB2 /* Main.storyboard */; };
 		351B90362464801E0021ADB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351B90352464801E0021ADB2 /* Assets.xcassets */; };
 		351B90392464801E0021ADB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351B90372464801E0021ADB2 /* LaunchScreen.storyboard */; };
@@ -41,7 +41,7 @@
 		351B90292464801A0021ADB2 /* VibeCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibeCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		351B902C2464801A0021ADB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		351B902E2464801A0021ADB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		351B90302464801A0021ADB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		351B90302464801A0021ADB2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		351B90332464801A0021ADB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		351B90352464801E0021ADB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		351B90382464801E0021ADB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -118,8 +118,9 @@
 			children = (
 				351B902C2464801A0021ADB2 /* AppDelegate.swift */,
 				351B902E2464801A0021ADB2 /* SceneDelegate.swift */,
-				351B90302464801A0021ADB2 /* ViewController.swift */,
-				351B90322464801A0021ADB2 /* Main.storyboard */,
+				351B905E2466FB650021ADB2 /* Model */,
+				351B905D2466FB560021ADB2 /* Controller */,
+				351B905C2466FB280021ADB2 /* View */,
 				351B90352464801E0021ADB2 /* Assets.xcassets */,
 				351B90372464801E0021ADB2 /* LaunchScreen.storyboard */,
 				351B903A2464801E0021ADB2 /* Info.plist */,
@@ -145,6 +146,29 @@
 			path = VibeCheckUITests;
 			sourceTree = "<group>";
 		};
+		351B905C2466FB280021ADB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				351B90322464801A0021ADB2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		351B905D2466FB560021ADB2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				351B90302464801A0021ADB2 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		351B905E2466FB650021ADB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D934CFB98FC5C4421B3D8A75 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +179,6 @@
 				B088469B2B72A524AD00303B /* Pods-VibeCheckTests.debug.xcconfig */,
 				83E7CC80A234E189910725F1 /* Pods-VibeCheckTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -372,7 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				351B90312464801A0021ADB2 /* ViewController.swift in Sources */,
+				351B90312464801A0021ADB2 /* LoginViewController.swift in Sources */,
 				351B902D2464801A0021ADB2 /* AppDelegate.swift in Sources */,
 				351B902F2464801A0021ADB2 /* SceneDelegate.swift in Sources */,
 			);
